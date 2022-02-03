@@ -1,13 +1,16 @@
 import React from 'react';
-import Creed from './Creed';
+import Test from './Test';
 
 const App = () => {
   return (
     <div>
-      <Creed />
-      <Creed />
-      <Creed />
-      <Creed />
+      <Test 
+        stringTest="Talal"
+        numTest={3.52}
+        boolTest={true}
+        undTest={undefined}
+        nullTest={null}
+      />
     </div>
   );
 }
