@@ -1,0 +1,15 @@
+{
+  "name": "nodefun",
+  "version": "1.0.0",
+  "description": "Node revision",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Talal Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
